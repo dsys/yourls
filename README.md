@@ -24,6 +24,8 @@ The server will be listening on port 80. You'll need to set up a MariaDB/MySQL i
     $ make build
     $ make push
 
-## License
+## License & Acknowledgements
 
 YOURLS is released under the [MIT license](https://github.com/YOURLS/YOURLS/blob/master/LICENSE.md). This Docker image is released under the [BSD 3-Clause license](https://github.com/pavlovml/yourls/blob/master/LICENSE).
+
+This image is inspired by [tsgoff/docker-yourls](https://github.com/tsgoff/docker-yourls) and [fauzanariffin/docker-yourls](https://github.com/fauzanariffin/docker-yourls). Thanks for being awesome. :)
