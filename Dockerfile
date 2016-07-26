@@ -1,4 +1,5 @@
 FROM php:7.0-apache
+MAINTAINER Alex Kern <alex@usepavlov.com>
 
 ENV YOURLS_VERSION 1.7.1
 RUN curl -o /tmp/YOURLS-$YOURLS_VERSION.tar.gz -L https://github.com/YOURLS/YOURLS/archive/$YOURLS_VERSION.tar.gz && \
